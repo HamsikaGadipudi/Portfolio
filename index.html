@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hamsika Gadipudi — Computer Science student and developer portfolio.">
+  <title>Hamsika Gadipudi | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-1"></div>
+  <div class="ambient ambient-2"></div>
+
+  <header class="navbar">
+    <a href="#home" class="brand"><span>H</span> Hamsika</a>
+    <button class="menu-toggle" aria-label="Open navigation">☰</button>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">COMPUTER SCIENCE • DEVELOPER • PROBLEM SOLVER</p>
+        <h1>Hi, I'm <span>Hamsika.</span><br>I build things for the web.</h1>
+        <p class="hero-text">A Computer Science student at Vignan University who enjoys building interactive experiences, strengthening problem-solving skills, and exploring technology through hands-on projects.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View My Work <span>↗</span></a>
+          <a class="btn secondary" href="mailto:hamsikagadipudi@gmail.com">Let's Connect</a>
+        </div>
+        <div class="quick-links">
+          <a href="mailto:hamsikagadipudi@gmail.com">Email</a>
+          <span>•</span>
+          <a href="tel:+917780154266">+91 7780154266</a>
+          <span>•</span>
+          <a href="https://github.com/HamsikaGadipudi" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <span>•</span>
+          <a href="https://www.linkedin.com/in/hamsika-gadipudi/" target="_blank" rel="noopener noreferrer">LinkedIn Profile ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="profile-mark">HG</div>
+        <div class="card-caption">
+          <span>Currently</span>
+          <strong>BTech Computer Science</strong>
+          <small>Vignan University · Hyderabad</small>
+        </div>
+        <div class="floating-tag tag-1">Python</div>
+        <div class="floating-tag tag-2">Java</div>
+        <div class="floating-tag tag-3">Fullstack</div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>Curious by nature.<br><span>Hands-on by choice.</span></h2>
+      </div>
+      <div class="about-grid">
+        <p class="lead reveal">I’m a Computer Science student focused on learning by building. From animated web experiences to consistent coding practice, I like turning ideas into working solutions.</p>
+        <div class="about-points reveal">
+          <div><b>100</b><span>Days of Code completed</span></div>
+          <div><b>LeetCode</b><span>Regular problem-solving practice</span></div>
+          <div><b>Hackathon</b><span>Sprint Hackathon participant</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / SKILLS</p>
+        <h2>Tools I use to<br><span>make ideas real.</span></h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <div class="skill-icon">01</div>
+          <h3>Programming</h3>
+          <p>Python<br>Java<br>Fullstack Development</p>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon">02</div>
+          <h3>Developer Tools</h3>
+          <p>Git & GitHub<br>VS Code<br>IntelliJ / PyCharm / IDEA</p>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-icon">03</div>
+          <h3>Web Development</h3>
+          <p>HTML<br>CSS<br>JavaScript</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / FEATURED PROJECTS</p>
+        <h2>Projects that turn<br><span>ideas into solutions.</span></h2>
+      </div>
+      <article class="project-card reveal placement-project">
+        <div class="project-visual placement-visual">
+          <div class="window-bar"><i></i><i></i><i></i><span>placement_prediction.py</span></div>
+          <div class="placement-scene">
+            <div class="placement-grid"></div>
+            <div class="placement-bars"><b></b><b></b><b></b><b></b><b></b><b></b></div>
+            <div class="placement-card"><small>MODEL</small><strong>RANDOM<br>FOREST</strong><span>PLACEMENT</span></div>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-meta"><span>MACHINE LEARNING</span><span>PYTHON</span></div>
+          <h3>College Placement Data Analysis and Prediction</h3>
+          <p>Built a machine learning pipeline to preprocess college placement data and predict placement outcomes using a Random Forest classifier.</p>
+          <ul>
+            <li>Cleaned column names, removed duplicate records, and handled missing numerical and categorical values using median and mode imputation.</li>
+            <li>Encoded categorical features using LabelEncoder and standardized numerical features using StandardScaler before model training.</li>
+            <li>Split the dataset into training and testing sets and evaluated predictions using accuracy, confusion matrix, and classification report.</li>
+            <li>Serialized the trained model, label encoders, and scaler using Joblib for reuse in future prediction workflows.</li>
+          </ul>
+          <div class="tech-stack">
+            <span>Python</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>Random Forest</span><span>Joblib</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-visual">
+          <div class="window-bar"><i></i><i></i><i></i><span>haunted-escape-room</span></div>
+          <div class="game-scene">
+            <div class="moon"></div>
+            <div class="silhouette s1"></div>
+            <div class="silhouette s2"></div>
+            <div class="door"><span>?</span></div>
+            <div class="scene-text">ESCAPE<br><small>IF YOU CAN</small></div>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-meta"><span>NOV 2025</span><span>WEB GAME</span></div>
+          <h3>Haunted Escape Room — Animated</h3>
+          <p>An animated, puzzle-based escape room game with interactive rooms and logic-driven challenges.</p>
+          <ul>
+            <li>Game state management and inventory system</li>
+            <li>Key-based unlocking mechanisms using JavaScript</li>
+            <li>Responsive UI with CSS animations</li>
+            <li>Event handling, DOM manipulation and conditional logic</li>
+          </ul>
+          <div class="tech-stack">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Git</span><span>VS Code</span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="education" class="section education">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 / EDUCATION</p>
+        <h2>Learning is<br><span>the foundation.</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <span class="year">2024 — PRESENT</span>
+          <div><h3>Vignan University</h3><p>BTech Computer Science · Hyderabad</p><strong>Current GPA: 6.9 / 10</strong></div>
+        </div>
+        <div class="timeline-item reveal">
+          <span class="year">MAY 2024</span>
+          <div><h3>Arka College</h3><p>Class XII · Guntur</p><strong>80%</strong></div>
+        </div>
+        <div class="timeline-item reveal">
+          <span class="year">APRIL 2022</span>
+          <div><h3>Bhashyam School</h3><p>Class X · Guntur</p><strong>415 / 600</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section beyond">
+      <div class="section-heading reveal">
+        <p class="eyebrow">05 / BEYOND CODE</p>
+        <h2>More than<br><span>just a developer.</span></h2>
+      </div>
+      <div class="beyond-grid">
+        <div class="beyond-card reveal"><span>01</span><h3>Problem Solving</h3><p>Regular LeetCode practice to strengthen algorithms and problem-solving skills.</p></div>
+        <div class="beyond-card reveal"><span>02</span><h3>Community & Challenges</h3><p>Completed the #100DaysOfCode challenge on GeeksforGeeks and participated in the Sprint Hackathon.</p></div>
+        <div class="beyond-card reveal"><span>03</span><h3>Outside Tech</h3><p>Badminton, freelancing in content/tech, and reading non-fiction and technology blogs.</p></div>
+      </div>
+      <div class="languages reveal"><span>Languages</span><b>English — Fluent</b><b>Telugu — Native</b><b>German — Beginner</b></div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-inner reveal">
+        <p class="eyebrow">06 / CONTACT</p>
+        <h2>Have an idea?<br><span>Let's build it.</span></h2>
+        <p>I'm open to conversations, collaborations, and opportunities where I can learn, build, and contribute.</p>
+        <a class="contact-email" href="mailto:hamsikagadipudi@gmail.com">hamsikagadipudi@gmail.com <span>↗</span></a>
+        <div class="contact-details">
+          <a href="tel:+917780154266">+91 7780154266</a>
+          <span>Hyderabad, India</span>
+        </div>
+        <div class="contact-socials">
+          <a href="https://github.com/HamsikaGadipudi" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/hamsika-gadipudi/" target="_blank" rel="noopener noreferrer">LinkedIn Profile ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Hamsika Gadipudi</span>
+    <span>Designed & built with curiosity.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
